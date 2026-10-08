@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>S and Z's Fashion Game</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>S and Z's Fashion Game</h1><p id="event">Press New Game to begin!</p><button id="newGame">✨ New Game</button></header>
+<main>
+<section class="wardrobe"><h2>👗 Wardrobe</h2><div class="tabs"><button data-cat="tops">Tops & Dresses</button><button data-cat="bottoms">Bottoms</button><button data-cat="shoes">Shoes</button><button data-cat="extras">Extras</button></div><div id="items"></div></section>
+<section class="studio"><h2 id="girlName">Girl Mannequin</h2><div class="stage"><div id="girl" class="girl"><div class="hair"></div><div class="face"><i class="eye e1"></i><i class="eye e2"></i><i class="mouth"></i></div><div class="neck"></div><div class="body"></div><div class="arm a1"></div><div class="arm a2"></div><div class="leg l1"></div><div class="leg l2"></div><div id="clothes"></div></div></div>
+<div class="controls"><b>Selected clothing size</b><label>Width <input id="width" type="range" min="60" max="150" value="100"></label><label>Height <input id="height" type="range" min="60" max="150" value="100"></label><button id="resetSize">↺ Reset Size</button></div>
+<button id="finish">✨ Finish Outfit ✨</button><p id="message"></p></section>
+</main><script src="script.js"></script>
+</body></html>
